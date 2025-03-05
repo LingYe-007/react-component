@@ -2,6 +2,14 @@
   "name": "react-component",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -12,6 +20,8 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "async-validator": "^4.2.5",
+    "axios": "^1.8.1",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.13",
     "react": "^19.0.0",
@@ -44,7 +54,7 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
+      "last 1 chrome version",   
       "last 1 firefox version",
       "last 1 safari version"
     ]
